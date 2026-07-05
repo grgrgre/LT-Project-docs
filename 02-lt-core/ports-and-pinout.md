@@ -1,0 +1,2 @@
+﻿# ports-and-pinout.md
+
