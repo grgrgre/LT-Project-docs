@@ -1,19 +1,48 @@
-# LoRa-module.md
+# LoRa Module
 
-In this file you дізнаєшся how working LoRa in LT core and other LTs from this лінійки.  
+This document tracks LoRa module research for LT devices.
 
-## Chip-specs
+## Current MVP Candidate
 
-For MVP, I use Ebyte E22-900T22D-chip with built-in antena port. 
-###### Why this:
-I ordered this package from Aliexpress and I received module and in-compectated antena.
+| Item | Value |
+| --- | --- |
+| Module | Ebyte E22-900T22D |
+| Frequency target | 868 MHz region for EU testing |
+| Antenna candidate | TX868-JKD-20 |
+| Status | Research / prototype candidate |
 
-## Antena
+## Why This Module
 
-Anteta name is TX868-JKD-20 I'll you a 868-Gz module and antena, because I live in EU. Maybe this is typical chinese-підвальна antena, but this one done well, it have nice mate-plastic 
+- Available for early experiments.
+- Includes an antenna connector.
+- Suitable for initial LoRa send/receive tests.
+- Practical for learning before designing a custom RF board.
 
-### Antena size
+## Antenna Notes
 
-It`s a typical 20sm-antena i think this antena be nice to catch a conection about several kilometer
+The current antenna candidate is `TX868-JKD-20`, approximately 20 cm long.
 
+Range must be treated as unverified until field testing is complete. The target
+is multi-kilometer communication in open conditions, but real range depends on
+antenna quality, placement, environment, legal power limits, spreading factor,
+bandwidth, and device enclosure design.
 
+## Engineering Requirements
+
+- Verify module datasheet and pinout before PCB design.
+- Document UART or SPI interface requirements.
+- Document voltage and current requirements.
+- Confirm legal frequency and power limits for target regions.
+- Test range with a repeatable procedure.
+- Keep antenna placement away from noisy electronics where possible.
+
+## Open Questions
+
+| Question | Status |
+| --- | --- |
+| Final LoRa module | TBD |
+| Final antenna | TBD |
+| UART baud rate | TBD |
+| Power budget | TBD |
+| Enclosure antenna placement | TBD |
+| Regional variants | TBD |

@@ -1,0 +1,140 @@
+<svg width="1920" height="1320" viewBox="0 0 1920 1320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1920" height="1320" fill="#F5F7F8"/>
+  <rect width="1920" height="160" fill="#172026"/>
+  <text x="72" y="74" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="38" font-weight="700">LT Ecosystem Device Concepts</text>
+  <text x="74" y="122" fill="#B7C3CC" font-family="Inter, Arial, sans-serif" font-size="18">Documentation-first industrial concept board for LT Mini, LT Core, and LT Core Pro.</text>
+  <text x="1180" y="58" fill="#D6DEE4" font-family="Inter, Arial, sans-serif" font-size="16">Browser-checked anchors: ESP32-S3, Raspberry Pi Zero 2 W,</text>
+  <text x="1180" y="82" fill="#D6DEE4" font-family="Inter, Arial, sans-serif" font-size="16">E22-900T22D, and EU 868 MHz LoRa direction.</text>
+
+  <g id="lt-mini-section">
+    <rect x="72" y="220" width="540" height="870" rx="8" fill="#FFFFFF" stroke="#D7DEE5"/>
+    <rect x="72" y="220" width="540" height="8" fill="#22A06B"/>
+    <text x="104" y="272" fill="#172026" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700">LT Mini</text>
+    <text x="104" y="316" fill="#53616F" font-family="Inter, Arial, sans-serif" font-size="15">MVP handheld for learning, LoRa experiments, and low-power portable utilities.</text>
+
+    <rect x="199" y="401" width="286" height="404" rx="32" fill="#D7DEE5"/>
+    <rect x="190" y="392" width="286" height="404" rx="32" fill="#202B32" stroke="#11181D" stroke-width="2"/>
+    <rect x="316" y="357" width="34" height="44" rx="10" fill="#202B32" stroke="#11181D" stroke-width="2"/>
+    <rect x="222" y="434" width="222" height="126" rx="10" fill="#0B1116" stroke="#41515D"/>
+    <rect x="238" y="452" width="190" height="88" rx="4" fill="#BFD6C2"/>
+    <text x="256" y="475" fill="#183021" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="600">LT MINI</text>
+    <text x="256" y="500" fill="#183021" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="600">LoRa scan</text>
+    <text x="256" y="525" fill="#183021" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="600">868 MHz</text>
+    <circle cx="282" cy="641" r="33" fill="#11181D" stroke="#53616F"/>
+    <circle cx="282" cy="641" r="14" fill="#2E3A42" stroke="#7B8A97"/>
+    <circle cx="389" cy="614" r="16" fill="#26343D" stroke="#7B8A97"/>
+    <circle cx="422" cy="651" r="16" fill="#26343D" stroke="#7B8A97"/>
+    <rect x="310" y="765" width="48" height="10" rx="4" fill="#0B1116"/>
+    <rect x="217" y="578" width="232" height="10" rx="5" fill="#32424D"/>
+
+    <g font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700">
+      <rect x="104" y="838" width="106" height="30" rx="6" fill="#EFFAF5" stroke="#22A06B"/>
+      <text x="116" y="858" fill="#1F513D">ESP32-S3</text>
+      <rect x="222" y="838" width="72" height="30" rx="6" fill="#EFFAF5" stroke="#22A06B"/>
+      <text x="234" y="858" fill="#1F513D">LCD</text>
+      <rect x="306" y="838" width="138" height="30" rx="6" fill="#EFFAF5" stroke="#22A06B"/>
+      <text x="318" y="858" fill="#1F513D">5-way joystick</text>
+      <rect x="456" y="838" width="76" height="30" rx="6" fill="#EFFAF5" stroke="#22A06B"/>
+      <text x="468" y="858" fill="#1F513D">LoRa</text>
+    </g>
+
+    <text x="104" y="918" fill="#172026" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">MVP Decisions</text>
+    <g fill="#344054" font-family="Inter, Arial, sans-serif" font-size="14">
+      <circle cx="109" cy="952" r="3" fill="#22A06B"/><text x="122" y="957">No QWERTY keyboard in MVP.</text>
+      <circle cx="109" cy="982" r="3" fill="#22A06B"/><text x="122" y="987">No built-in GPS; keep possible through expansion.</text>
+      <circle cx="109" cy="1012" r="3" fill="#22A06B"/><text x="122" y="1017">USB-C for power, flashing, serial, and desktop tools.</text>
+      <circle cx="109" cy="1042" r="3" fill="#22A06B"/><text x="122" y="1047">Document GPIO allocation before PCB design.</text>
+    </g>
+  </g>
+
+  <g id="lt-core-section">
+    <rect x="690" y="220" width="540" height="870" rx="8" fill="#FFFFFF" stroke="#D7DEE5"/>
+    <rect x="690" y="220" width="540" height="8" fill="#246BFE"/>
+    <text x="722" y="272" fill="#172026" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700">LT Core</text>
+    <text x="722" y="316" fill="#53616F" font-family="Inter, Arial, sans-serif" font-size="15">Flagship portable computer architecture with more input and stronger expansion.</text>
+
+    <rect x="765" y="401" width="394" height="398" rx="28" fill="#D7DEE5"/>
+    <rect x="756" y="392" width="394" height="398" rx="28" fill="#1C252B" stroke="#10171B" stroke-width="2"/>
+    <rect x="780" y="374" width="112" height="24" rx="8" fill="#25343D" stroke="#10171B"/>
+    <rect x="789" y="428" width="328" height="150" rx="10" fill="#0B1116" stroke="#41515D"/>
+    <rect x="806" y="446" width="294" height="114" rx="4" fill="#C9D8E8"/>
+    <text x="826" y="470" fill="#17314F" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">LT CORE</text>
+    <text x="826" y="500" fill="#17314F" font-family="Inter, Arial, sans-serif" font-size="14">Module bus: online</text>
+    <text x="826" y="523" fill="#17314F" font-family="Inter, Arial, sans-serif" font-size="14">Desktop mode: research</text>
+    <text x="826" y="546" fill="#17314F" font-family="Inter, Arial, sans-serif" font-size="14">Telemetry: active</text>
+    <g fill="#32424D" stroke="#5F7180">
+      <rect x="795" y="612" width="24" height="20" rx="4"/><rect x="825" y="612" width="24" height="20" rx="4"/><rect x="855" y="612" width="24" height="20" rx="4"/><rect x="885" y="612" width="24" height="20" rx="4"/><rect x="915" y="612" width="24" height="20" rx="4"/><rect x="945" y="612" width="24" height="20" rx="4"/><rect x="975" y="612" width="24" height="20" rx="4"/><rect x="1005" y="612" width="24" height="20" rx="4"/><rect x="1035" y="612" width="24" height="20" rx="4"/><rect x="1065" y="612" width="24" height="20" rx="4"/>
+      <rect x="795" y="642" width="24" height="20" rx="4"/><rect x="825" y="642" width="24" height="20" rx="4"/><rect x="855" y="642" width="24" height="20" rx="4"/><rect x="885" y="642" width="24" height="20" rx="4"/><rect x="915" y="642" width="24" height="20" rx="4"/><rect x="945" y="642" width="24" height="20" rx="4"/><rect x="975" y="642" width="24" height="20" rx="4"/><rect x="1005" y="642" width="24" height="20" rx="4"/><rect x="1035" y="642" width="24" height="20" rx="4"/><rect x="1065" y="642" width="24" height="20" rx="4"/>
+      <rect x="888" y="702" width="126" height="20" rx="4"/>
+    </g>
+    <circle cx="1070" cy="668" r="27" fill="#10171B" stroke="#5F7180"/>
+    <circle cx="1070" cy="668" r="11" fill="#2B3942" stroke="#7B8A97"/>
+    <rect x="802" y="746" width="292" height="18" rx="6" fill="#2D3B45" stroke="#5F7180"/>
+
+    <g font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700">
+      <rect x="722" y="838" width="112" height="30" rx="6" fill="#EEF4FF" stroke="#246BFE"/>
+      <text x="734" y="858" fill="#233F7A">Larger LCD</text>
+      <rect x="846" y="838" width="104" height="30" rx="6" fill="#EEF4FF" stroke="#246BFE"/>
+      <text x="858" y="858" fill="#233F7A">Keyboard</text>
+      <rect x="962" y="838" width="92" height="30" rx="6" fill="#EEF4FF" stroke="#246BFE"/>
+      <text x="974" y="858" fill="#233F7A">Joystick</text>
+      <rect x="1066" y="838" width="116" height="30" rx="6" fill="#EEF4FF" stroke="#246BFE"/>
+      <text x="1078" y="858" fill="#233F7A">Internal bus</text>
+    </g>
+
+    <text x="722" y="918" fill="#172026" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">Architecture Direction</text>
+    <g fill="#344054" font-family="Inter, Arial, sans-serif" font-size="14">
+      <circle cx="727" cy="952" r="3" fill="#246BFE"/><text x="740" y="957">Universal portable computer, not just a bigger Mini.</text>
+      <circle cx="727" cy="982" r="3" fill="#246BFE"/><text x="740" y="987">Keep display, input, storage, radio, and power replaceable.</text>
+      <circle cx="727" cy="1012" r="3" fill="#246BFE"/><text x="740" y="1017">Reuse LT Mini firmware/modules where practical.</text>
+      <circle cx="727" cy="1042" r="3" fill="#246BFE"/><text x="740" y="1047">Linux support remains a research boundary.</text>
+    </g>
+  </g>
+
+  <g id="lt-core-pro-section">
+    <rect x="1308" y="220" width="540" height="870" rx="8" fill="#FFFFFF" stroke="#D7DEE5"/>
+    <rect x="1308" y="220" width="540" height="8" fill="#D97A00"/>
+    <text x="1340" y="272" fill="#172026" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700">LT Core Pro</text>
+    <text x="1340" y="316" fill="#53616F" font-family="Inter, Arial, sans-serif" font-size="15">Future higher-end Core variant that keeps compatibility with the ecosystem.</text>
+
+    <rect x="1370" y="403" width="416" height="408" rx="28" fill="#D7DEE5"/>
+    <rect x="1360" y="392" width="416" height="408" rx="28" fill="#151B20" stroke="#090D10" stroke-width="2"/>
+    <rect x="1360" y="435" width="10" height="272" rx="4" fill="#7A8894"/>
+    <rect x="1766" y="435" width="10" height="272" rx="4" fill="#7A8894"/>
+    <rect x="1393" y="424" width="350" height="160" rx="10" fill="#070A0D" stroke="#4B5A65"/>
+    <rect x="1410" y="442" width="316" height="124" rx="4" fill="#DBE4EE"/>
+    <text x="1430" y="466" fill="#372400" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">LT CORE PRO</text>
+    <text x="1430" y="498" fill="#372400" font-family="Inter, Arial, sans-serif" font-size="14">Linux shell: ready</text>
+    <text x="1430" y="521" fill="#372400" font-family="Inter, Arial, sans-serif" font-size="14">Module bus: 2 lanes</text>
+    <text x="1430" y="544" fill="#372400" font-family="Inter, Arial, sans-serif" font-size="14">Dock: attached</text>
+    <rect x="1404" y="612" width="138" height="86" rx="8" fill="#222D35" stroke="#B87923"/>
+    <text x="1426" y="638" fill="#F6D59A" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">Compute</text>
+    <text x="1426" y="660" fill="#F6D59A" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">module</text>
+    <rect x="1566" y="612" width="154" height="86" rx="8" fill="#222D35" stroke="#B87923"/>
+    <text x="1594" y="638" fill="#F6D59A" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">Internal</text>
+    <text x="1594" y="660" fill="#F6D59A" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">expansion</text>
+    <rect x="1396" y="723" width="344" height="40" rx="8" fill="#25323B" stroke="#5F7180"/>
+    <circle cx="1728" cy="652" r="25" fill="#090D10" stroke="#7B8A97"/>
+    <circle cx="1728" cy="652" r="10" fill="#2B3942" stroke="#B87923"/>
+    <rect x="1503" y="778" width="130" height="8" rx="4" fill="#B87923"/>
+
+    <g font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700">
+      <rect x="1340" y="838" width="108" height="30" rx="6" fill="#FFF5E8" stroke="#D97A00"/>
+      <text x="1352" y="858" fill="#6A3C00">Linux path</text>
+      <rect x="1460" y="838" width="164" height="30" rx="6" fill="#FFF5E8" stroke="#D97A00"/>
+      <text x="1472" y="858" fill="#6A3C00">Pi Zero 2 W research</text>
+      <rect x="1636" y="838" width="74" height="30" rx="6" fill="#FFF5E8" stroke="#D97A00"/>
+      <text x="1648" y="858" fill="#6A3C00">Dock</text>
+      <rect x="1722" y="838" width="96" height="30" rx="6" fill="#FFF5E8" stroke="#D97A00"/>
+      <text x="1734" y="858" fill="#6A3C00">Shared bus</text>
+    </g>
+
+    <text x="1340" y="918" fill="#172026" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">Pro Constraints</text>
+    <g fill="#344054" font-family="Inter, Arial, sans-serif" font-size="14">
+      <circle cx="1345" cy="952" r="3" fill="#D97A00"/><text x="1358" y="957">Pro features extend LT Core, not fork the ecosystem.</text>
+      <circle cx="1345" cy="982" r="3" fill="#D97A00"/><text x="1358" y="987">Reuse firmware modules, connector concepts, and docs.</text>
+      <circle cx="1345" cy="1012" r="3" fill="#D97A00"/><text x="1358" y="1017">Compute choice stays research until requirements are stable.</text>
+      <circle cx="1345" cy="1042" r="3" fill="#D97A00"/><text x="1358" y="1047">Dock workflows are future architecture work.</text>
+    </g>
+  </g>
+</svg>

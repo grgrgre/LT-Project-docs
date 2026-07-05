@@ -1,29 +1,41 @@
-﻿# display-and-backlight.md
+# Display and Backlight
 
-LT-core has 2 different display, but in this file us interesting LCD one.
+This document tracks display and backlight decisions for LT devices.
 
-## Why LCD
+## LCD Direction
 
-  ### 1. Enegroeffencivecncy:  
- LCD display is readable under sun and using less power than oled or other LED displays
- 
-  ### 2. Simple of using and expluatation:  
- LCD is very esay for programing and very simple of making graphic interface.
+LCD is the preferred first display direction for early LT hardware because it is
+simple, readable, and practical for battery-powered handheld devices.
 
+## Reasons to Prefer LCD
 
-## Configurations and colors
+| Reason | Notes |
+| --- | --- |
+| Outdoor readability | Many LCD modules remain usable in bright light. |
+| Power efficiency | LCD can be more efficient than emissive displays in some UI modes. |
+| Simpler UI requirements | Minimal engineering-tool UI does not require complex graphics. |
+| Availability | Small LCD modules are common and inexpensive for prototypes. |
 
-For LT-core LCD display has several colors of backlight.
+## Backlight Colors
 
-Base colors may be:
+Possible backlight colors:
 
-  1. Blue 
-  2. Amber (orange)
-  3. Green
-  4. White 
+| Color | Status |
+| --- | --- |
+| Blue | Candidate |
+| Amber / orange | Candidate |
+| Green | Candidate |
+| White | Candidate |
 
-This list of colors give many styles and opportunities for customization our device.
+Backlight color should be treated as an industrial-design and usability decision,
+not only a visual customization feature.
 
+## Open Questions
 
-
-
+| Question | Status |
+| --- | --- |
+| Display size | TBD |
+| Resolution | TBD |
+| Interface type | TBD |
+| Backlight power control | TBD |
+| Readability test method | TBD |
