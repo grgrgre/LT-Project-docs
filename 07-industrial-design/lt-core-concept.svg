@@ -1,0 +1,51 @@
+<svg width="900" height="1200" viewBox="0 0 900 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="1200" fill="#F5F7F8"/>
+  <rect width="900" height="132" fill="#172026"/>
+  <text x="56" y="66" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="36" font-weight="700">LT Core</text>
+  <text x="56" y="102" fill="#B7C3CC" font-family="Inter, Arial, sans-serif" font-size="17">Flagship portable computer architecture with larger input and stronger expansion.</text>
+
+  <rect x="56" y="176" width="788" height="900" rx="12" fill="#FFFFFF" stroke="#D7DEE5"/>
+  <rect x="56" y="176" width="788" height="10" fill="#246BFE"/>
+
+  <g id="device">
+    <rect x="214" y="274" width="472" height="430" rx="30" fill="#D7DEE5"/>
+    <rect x="204" y="264" width="472" height="430" rx="30" fill="#1C252B" stroke="#10171B" stroke-width="2"/>
+    <rect x="232" y="244" width="132" height="26" rx="8" fill="#25343D" stroke="#10171B"/>
+    <rect x="244" y="306" width="412" height="174" rx="11" fill="#0B1116" stroke="#41515D"/>
+    <rect x="264" y="328" width="372" height="130" rx="5" fill="#C9D8E8"/>
+    <text x="288" y="360" fill="#17314F" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">LT CORE</text>
+    <text x="288" y="394" fill="#17314F" font-family="Inter, Arial, sans-serif" font-size="16">Module bus: online</text>
+    <text x="288" y="421" fill="#17314F" font-family="Inter, Arial, sans-serif" font-size="16">Desktop mode: research</text>
+    <text x="288" y="448" fill="#17314F" font-family="Inter, Arial, sans-serif" font-size="16">Telemetry: active</text>
+    <g fill="#32424D" stroke="#5F7180">
+      <rect x="258" y="520" width="28" height="22" rx="4"/><rect x="292" y="520" width="28" height="22" rx="4"/><rect x="326" y="520" width="28" height="22" rx="4"/><rect x="360" y="520" width="28" height="22" rx="4"/><rect x="394" y="520" width="28" height="22" rx="4"/><rect x="428" y="520" width="28" height="22" rx="4"/><rect x="462" y="520" width="28" height="22" rx="4"/><rect x="496" y="520" width="28" height="22" rx="4"/><rect x="530" y="520" width="28" height="22" rx="4"/><rect x="564" y="520" width="28" height="22" rx="4"/>
+      <rect x="258" y="554" width="28" height="22" rx="4"/><rect x="292" y="554" width="28" height="22" rx="4"/><rect x="326" y="554" width="28" height="22" rx="4"/><rect x="360" y="554" width="28" height="22" rx="4"/><rect x="394" y="554" width="28" height="22" rx="4"/><rect x="428" y="554" width="28" height="22" rx="4"/><rect x="462" y="554" width="28" height="22" rx="4"/><rect x="496" y="554" width="28" height="22" rx="4"/><rect x="530" y="554" width="28" height="22" rx="4"/><rect x="564" y="554" width="28" height="22" rx="4"/>
+      <rect x="370" y="622" width="152" height="22" rx="4"/>
+    </g>
+    <circle cx="616" cy="588" r="30" fill="#10171B" stroke="#5F7180"/>
+    <circle cx="616" cy="588" r="12" fill="#2B3942" stroke="#7B8A97"/>
+    <rect x="276" y="656" width="350" height="19" rx="6" fill="#2D3B45" stroke="#5F7180"/>
+  </g>
+
+  <g id="chips" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">
+    <rect x="112" y="750" width="130" height="36" rx="7" fill="#EEF4FF" stroke="#246BFE"/>
+    <text x="128" y="773" fill="#233F7A">Larger LCD</text>
+    <rect x="258" y="750" width="116" height="36" rx="7" fill="#EEF4FF" stroke="#246BFE"/>
+    <text x="274" y="773" fill="#233F7A">Keyboard</text>
+    <rect x="390" y="750" width="106" height="36" rx="7" fill="#EEF4FF" stroke="#246BFE"/>
+    <text x="406" y="773" fill="#233F7A">Joystick</text>
+    <rect x="512" y="750" width="132" height="36" rx="7" fill="#EEF4FF" stroke="#246BFE"/>
+    <text x="528" y="773" fill="#233F7A">Internal bus</text>
+  </g>
+
+  <text x="112" y="850" fill="#172026" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">Architecture direction</text>
+  <g fill="#344054" font-family="Inter, Arial, sans-serif" font-size="17">
+    <circle cx="120" cy="892" r="4" fill="#246BFE"/><text x="140" y="898">Universal portable computer, not just a bigger Mini.</text>
+    <circle cx="120" cy="928" r="4" fill="#246BFE"/><text x="140" y="934">Keep display, input, storage, radio, and power replaceable.</text>
+    <circle cx="120" cy="964" r="4" fill="#246BFE"/><text x="140" y="970">Reuse LT Mini firmware and modules where practical.</text>
+    <circle cx="120" cy="1000" r="4" fill="#246BFE"/><text x="140" y="1006">Linux support remains a research boundary.</text>
+  </g>
+
+  <rect x="112" y="1034" width="676" height="1" fill="#D7DEE5"/>
+  <text x="112" y="1068" fill="#42515C" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="600">Status: flagship architecture concept. Define interfaces before choosing final compute.</text>
+</svg>

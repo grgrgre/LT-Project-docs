@@ -1,0 +1,50 @@
+<svg width="900" height="1200" viewBox="0 0 900 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="1200" fill="#F5F7F8"/>
+  <rect width="900" height="132" fill="#172026"/>
+  <text x="56" y="66" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="36" font-weight="700">LT Mini</text>
+  <text x="56" y="102" fill="#B7C3CC" font-family="Inter, Arial, sans-serif" font-size="17">Compact MVP handheld for learning, LoRa experiments, and low-power utilities.</text>
+
+  <rect x="56" y="176" width="788" height="900" rx="12" fill="#FFFFFF" stroke="#D7DEE5"/>
+  <rect x="56" y="176" width="788" height="10" fill="#22A06B"/>
+
+  <g id="device">
+    <rect x="304" y="268" width="302" height="426" rx="34" fill="#D7DEE5"/>
+    <rect x="294" y="258" width="302" height="426" rx="34" fill="#202B32" stroke="#11181D" stroke-width="2"/>
+    <rect x="428" y="220" width="36" height="48" rx="10" fill="#202B32" stroke="#11181D" stroke-width="2"/>
+    <rect x="326" y="302" width="238" height="138" rx="10" fill="#0B1116" stroke="#41515D"/>
+    <rect x="343" y="322" width="204" height="96" rx="4" fill="#BFD6C2"/>
+    <text x="365" y="351" fill="#183021" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">LT MINI</text>
+    <text x="365" y="380" fill="#183021" font-family="Inter, Arial, sans-serif" font-size="16">LoRa scan</text>
+    <text x="365" y="405" fill="#183021" font-family="Inter, Arial, sans-serif" font-size="16">868 MHz</text>
+    <rect x="326" y="462" width="238" height="10" rx="5" fill="#32424D"/>
+    <circle cx="395" cy="542" r="36" fill="#11181D" stroke="#53616F"/>
+    <circle cx="395" cy="542" r="15" fill="#2E3A42" stroke="#7B8A97"/>
+    <circle cx="509" cy="512" r="17" fill="#26343D" stroke="#7B8A97"/>
+    <circle cx="544" cy="552" r="17" fill="#26343D" stroke="#7B8A97"/>
+    <rect x="421" y="652" width="52" height="10" rx="5" fill="#0B1116"/>
+  </g>
+
+  <g id="chips" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">
+    <rect x="112" y="750" width="128" height="36" rx="7" fill="#EFFAF5" stroke="#22A06B"/>
+    <text x="128" y="773" fill="#1F513D">ESP32-S3</text>
+    <rect x="256" y="750" width="86" height="36" rx="7" fill="#EFFAF5" stroke="#22A06B"/>
+    <text x="272" y="773" fill="#1F513D">LCD</text>
+    <rect x="358" y="750" width="170" height="36" rx="7" fill="#EFFAF5" stroke="#22A06B"/>
+    <text x="374" y="773" fill="#1F513D">5-way joystick</text>
+    <rect x="544" y="750" width="92" height="36" rx="7" fill="#EFFAF5" stroke="#22A06B"/>
+    <text x="560" y="773" fill="#1F513D">LoRa</text>
+    <rect x="652" y="750" width="98" height="36" rx="7" fill="#EFFAF5" stroke="#22A06B"/>
+    <text x="668" y="773" fill="#1F513D">USB-C</text>
+  </g>
+
+  <text x="112" y="850" fill="#172026" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">MVP decisions</text>
+  <g fill="#344054" font-family="Inter, Arial, sans-serif" font-size="17">
+    <circle cx="120" cy="892" r="4" fill="#22A06B"/><text x="140" y="898">No QWERTY keyboard in the MVP.</text>
+    <circle cx="120" cy="928" r="4" fill="#22A06B"/><text x="140" y="934">No built-in GPS; keep possible through expansion.</text>
+    <circle cx="120" cy="964" r="4" fill="#22A06B"/><text x="140" y="970">USB-C for power, flashing, serial, and desktop tools.</text>
+    <circle cx="120" cy="1000" r="4" fill="#22A06B"/><text x="140" y="1006">Document GPIO allocation before PCB design.</text>
+  </g>
+
+  <rect x="112" y="1034" width="676" height="1" fill="#D7DEE5"/>
+  <text x="112" y="1068" fill="#42515C" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="600">Status: primary MVP direction. Keep it simple, cheap, documented, and prototype-friendly.</text>
+</svg>

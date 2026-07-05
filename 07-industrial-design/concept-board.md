@@ -2,9 +2,20 @@
 
 This folder contains early visual direction for the LT product family.
 
-The current board is a concept artifact, not a final mechanical design:
+The current boards are concept artifacts, not final mechanical designs:
 
 - [`lt-device-concepts.svg`](lt-device-concepts.svg)
+- [`lt-mini-concept.svg`](lt-mini-concept.svg)
+- [`lt-core-concept.svg`](lt-core-concept.svg)
+- [`lt-core-pro-concept.svg`](lt-core-pro-concept.svg)
+
+PNG exports are generated from the SVG files for easier viewing on GitHub and
+mobile devices:
+
+- [`lt-device-concepts.png`](lt-device-concepts.png)
+- [`lt-mini-concept.png`](lt-mini-concept.png)
+- [`lt-core-concept.png`](lt-core-concept.png)
+- [`lt-core-pro-concept.png`](lt-core-pro-concept.png)
 
 ## Included Products
 

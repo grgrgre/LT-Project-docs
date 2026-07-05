@@ -11,3 +11,5 @@
 - Converted early hardware notes into structured research documents.
 - Added a local SVG concept board for LT Mini, LT Core, and LT Core Pro.
 - Moved LT Mini into a main MVP product documentation section.
+- Added separate SVG and PNG concept assets for LT Mini, LT Core, and LT Core
+  Pro.

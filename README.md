@@ -66,4 +66,6 @@ The first device concept board is available as a local SVG:
 
 - [`07-industrial-design/lt-device-concepts.svg`](07-industrial-design/lt-device-concepts.svg)
 
+Individual concept boards and PNG exports are documented in
+[`07-industrial-design/concept-board.md`](07-industrial-design/concept-board.md).
 The same direction was started in Figma as `LT Ecosystem Device Concepts`.
