@@ -14,15 +14,16 @@ The goal is to keep the device small, inexpensive, and easy to prototype.
 
 ## LT Core Direction
 
-LT Core may use a larger input system:
+LT Core may support a larger input system:
 
-- keyboard
 - joystick
 - function buttons
 - possible modifier keys
+- attachable QWERTY keyboard module
 
-Keyboard decisions should remain separate from firmware architecture. The input
-driver should expose actions or key events without forcing one physical layout.
+Keyboard decisions should remain separate from the base firmware architecture.
+The input driver should expose actions or key events without forcing one
+physical layout.
 
 ## Input Design Rules
 
@@ -31,3 +32,4 @@ driver should expose actions or key events without forcing one physical layout.
 - Document GPIO usage for every button and joystick direction.
 - Debounce behavior should be handled consistently in firmware.
 - Avoid coupling UI screens directly to raw GPIO reads.
+- Keep the base device usable without a QWERTY module.

@@ -13,7 +13,7 @@ LT Core should provide:
 - a larger and more capable interface than LT Mini
 - modular hardware expansion
 - internal expansion bus planning
-- keyboard and joystick input options
+- joystick and optional keyboard-module input options
 - desktop mode research
 - Linux-capable future variants
 - strong reuse with LT Mini firmware and modules where practical
@@ -23,7 +23,7 @@ LT Core should provide:
 | Option | Status | Notes |
 | --- | --- | --- |
 | ESP32-S3 | Research | Useful for low-power control, simple UI, and firmware reuse. |
-| Raspberry Pi Zero 2W | Future research | Possible Linux-capable compute option. |
+| Raspberry Pi Zero 2 W | Future research | Possible Linux-capable compute option for Core/Pro-class devices. |
 | Newer compute module | Future research | Should be evaluated only when requirements justify it. |
 
 ## Design Requirements
@@ -40,7 +40,7 @@ LT Core should provide:
 | --- | --- |
 | Final compute architecture | TBD |
 | Display size and interface | TBD |
-| Keyboard layout | TBD |
+| Keyboard module interface | TBD |
 | Internal expansion connector | TBD |
 | Linux support boundary | TBD |
 | Battery and charging architecture | TBD |

@@ -2,7 +2,7 @@
   <rect width="900" height="1200" fill="#F5F7F8"/>
   <rect width="900" height="132" fill="#172026"/>
   <text x="56" y="66" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="36" font-weight="700">LT Core Pro</text>
-  <text x="56" y="102" fill="#B7C3CC" font-family="Inter, Arial, sans-serif" font-size="17">Future higher-end Core variant with Linux, dock, and shared-bus direction.</text>
+  <text x="56" y="102" fill="#B7C3CC" font-family="Inter, Arial, sans-serif" font-size="17">Future Core variant with Pi Zero 2 W research and Cardputer-like keyboard workflow.</text>
 
   <rect x="56" y="176" width="788" height="900" rx="12" fill="#FFFFFF" stroke="#D7DEE5"/>
   <rect x="56" y="176" width="788" height="10" fill="#D97A00"/>
@@ -35,10 +35,10 @@
     <text x="128" y="791" fill="#6A3C00">Linux path</text>
     <rect x="254" y="768" width="190" height="36" rx="7" fill="#FFF5E8" stroke="#D97A00"/>
     <text x="270" y="791" fill="#6A3C00">Pi Zero 2 W research</text>
-    <rect x="460" y="768" width="86" height="36" rx="7" fill="#FFF5E8" stroke="#D97A00"/>
-    <text x="476" y="791" fill="#6A3C00">Dock</text>
-    <rect x="562" y="768" width="118" height="36" rx="7" fill="#FFF5E8" stroke="#D97A00"/>
-    <text x="578" y="791" fill="#6A3C00">Shared bus</text>
+    <rect x="460" y="768" width="142" height="36" rx="7" fill="#FFF5E8" stroke="#D97A00"/>
+    <text x="476" y="791" fill="#6A3C00">Mini keyboard</text>
+    <rect x="618" y="768" width="86" height="36" rx="7" fill="#FFF5E8" stroke="#D97A00"/>
+    <text x="634" y="791" fill="#6A3C00">Dock</text>
   </g>
 
   <text x="112" y="862" fill="#172026" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">Pro constraints</text>

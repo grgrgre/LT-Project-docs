@@ -41,14 +41,15 @@ These limits are part of the product definition, not missing features:
 - no Linux requirement
 - no Pro-only hardware assumptions
 
-GPS can remain possible through the expansion port if the connector and firmware
-architecture support it.
+QWERTY and GPS can remain possible through expansion modules if the connector
+and firmware architecture support them.
 
 ## Engineering Rules
 
 - Keep the board simple enough to prototype.
 - Document GPIO allocation before PCB design.
 - Do not add LT Core Pro requirements to the Mini MVP.
+- Treat QWERTY as an input module, not a base-device requirement.
 - Treat range, battery life, and antenna performance as test results, not
   assumptions.
 - Keep firmware layers reusable for LT Core where practical.

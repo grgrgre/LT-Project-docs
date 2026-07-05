@@ -1,0 +1,42 @@
+<svg width="900" height="900" viewBox="0 0 900 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="900" fill="#F5F7F8"/>
+  <rect width="900" height="132" fill="#172026"/>
+  <text x="56" y="66" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="36" font-weight="700">QWERTY Input Module</text>
+  <text x="56" y="102" fill="#B7C3CC" font-family="Inter, Arial, sans-serif" font-size="17">Attachable keyboard direction for LT terminal, command, and scripting workflows.</text>
+
+  <rect x="56" y="176" width="788" height="670" rx="12" fill="#FFFFFF" stroke="#D7DEE5"/>
+  <rect x="56" y="176" width="788" height="10" fill="#6B5CFF"/>
+
+  <g id="module">
+    <rect x="164" y="286" width="572" height="260" rx="28" fill="#D7DEE5"/>
+    <rect x="150" y="272" width="572" height="260" rx="28" fill="#1C252B" stroke="#10171B" stroke-width="2"/>
+    <rect x="196" y="306" width="480" height="36" rx="8" fill="#25343D" stroke="#5F7180"/>
+    <text x="218" y="329" fill="#C8D4DD" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700">LT INPUT BUS</text>
+
+    <g fill="#32424D" stroke="#5F7180">
+      <rect x="196" y="384" width="30" height="24" rx="5"/><rect x="232" y="384" width="30" height="24" rx="5"/><rect x="268" y="384" width="30" height="24" rx="5"/><rect x="304" y="384" width="30" height="24" rx="5"/><rect x="340" y="384" width="30" height="24" rx="5"/><rect x="376" y="384" width="30" height="24" rx="5"/><rect x="412" y="384" width="30" height="24" rx="5"/><rect x="448" y="384" width="30" height="24" rx="5"/><rect x="484" y="384" width="30" height="24" rx="5"/><rect x="520" y="384" width="30" height="24" rx="5"/><rect x="556" y="384" width="30" height="24" rx="5"/><rect x="592" y="384" width="30" height="24" rx="5"/>
+      <rect x="214" y="420" width="30" height="24" rx="5"/><rect x="250" y="420" width="30" height="24" rx="5"/><rect x="286" y="420" width="30" height="24" rx="5"/><rect x="322" y="420" width="30" height="24" rx="5"/><rect x="358" y="420" width="30" height="24" rx="5"/><rect x="394" y="420" width="30" height="24" rx="5"/><rect x="430" y="420" width="30" height="24" rx="5"/><rect x="466" y="420" width="30" height="24" rx="5"/><rect x="502" y="420" width="30" height="24" rx="5"/><rect x="538" y="420" width="30" height="24" rx="5"/><rect x="574" y="420" width="30" height="24" rx="5"/>
+      <rect x="246" y="456" width="30" height="24" rx="5"/><rect x="282" y="456" width="30" height="24" rx="5"/><rect x="318" y="456" width="30" height="24" rx="5"/><rect x="354" y="456" width="30" height="24" rx="5"/><rect x="390" y="456" width="30" height="24" rx="5"/><rect x="426" y="456" width="30" height="24" rx="5"/><rect x="462" y="456" width="30" height="24" rx="5"/><rect x="498" y="456" width="30" height="24" rx="5"/><rect x="534" y="456" width="30" height="24" rx="5"/>
+      <rect x="302" y="492" width="210" height="24" rx="5"/>
+    </g>
+    <rect x="386" y="552" width="128" height="10" rx="5" fill="#6B5CFF"/>
+  </g>
+
+  <g font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">
+    <rect x="112" y="612" width="120" height="36" rx="7" fill="#F1F0FF" stroke="#6B5CFF"/>
+    <text x="128" y="635" fill="#37307A">QWERTY</text>
+    <rect x="248" y="612" width="142" height="36" rx="7" fill="#F1F0FF" stroke="#6B5CFF"/>
+    <text x="264" y="635" fill="#37307A">Terminal input</text>
+    <rect x="406" y="612" width="128" height="36" rx="7" fill="#F1F0FF" stroke="#6B5CFF"/>
+    <text x="422" y="635" fill="#37307A">Attachable</text>
+    <rect x="550" y="612" width="118" height="36" rx="7" fill="#F1F0FF" stroke="#6B5CFF"/>
+    <text x="566" y="635" fill="#37307A">Module bus</text>
+  </g>
+
+  <text x="112" y="704" fill="#172026" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">Design rules</text>
+  <g fill="#344054" font-family="Inter, Arial, sans-serif" font-size="17">
+    <circle cx="120" cy="746" r="4" fill="#6B5CFF"/><text x="140" y="752">Base devices must remain usable without this module.</text>
+    <circle cx="120" cy="782" r="4" fill="#6B5CFF"/><text x="140" y="788">Firmware exposes key events, not raw GPIO details.</text>
+    <circle cx="120" cy="818" r="4" fill="#6B5CFF"/><text x="140" y="824">Mechanical mounting and connector pinout are TBD.</text>
+  </g>
+</svg>

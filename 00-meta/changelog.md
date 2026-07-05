@@ -13,3 +13,5 @@
 - Moved LT Mini into a main MVP product documentation section.
 - Added separate SVG and PNG concept assets for LT Mini, LT Core, and LT Core
   Pro.
+- Documented Flipper-like family form factor direction, QWERTY as an input
+  module, and LT Core Pro's Cardputer-like compact keyboard workflow.

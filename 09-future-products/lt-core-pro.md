@@ -10,10 +10,11 @@ ecosystem.
 
 - stronger compute option
 - larger or better display
-- improved keyboard/input system
+- compact keyboard workflow inspired by engineering tools like M5Stack Cardputer
 - more internal expansion
 - desktop mode support
 - Linux-capable software stack
+- Raspberry Pi Zero 2 W or newer compute research
 
 ## Design Rules
 
@@ -22,13 +23,14 @@ ecosystem.
 - Keep module compatibility visible.
 - Keep firmware abstractions shared where practical.
 - Treat Pro features as extensions, not as a separate ecosystem.
+- Treat Cardputer-like keyboard direction as a workflow reference, not a clone.
 
 ## Open Questions
 
 | Question | Status |
 | --- | --- |
-| Compute module | TBD |
+| Compute module | Raspberry Pi Zero 2 W research |
 | Display size | TBD |
-| Keyboard design | TBD |
+| Keyboard design | Compact keyboard / input module direction |
 | Internal bus | TBD |
 | Linux boundary | TBD |

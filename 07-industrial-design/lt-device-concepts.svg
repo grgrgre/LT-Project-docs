@@ -2,7 +2,7 @@
   <rect width="1920" height="1320" fill="#F5F7F8"/>
   <rect width="1920" height="160" fill="#172026"/>
   <text x="72" y="74" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="38" font-weight="700">LT Ecosystem Device Concepts</text>
-  <text x="74" y="122" fill="#B7C3CC" font-family="Inter, Arial, sans-serif" font-size="18">Documentation-first industrial concept board for LT Mini, LT Core, and LT Core Pro.</text>
+  <text x="74" y="122" fill="#B7C3CC" font-family="Inter, Arial, sans-serif" font-size="18">Flipper-like handheld family; QWERTY is module-first, with Pro exploring compact keyboard workflows.</text>
   <text x="1180" y="58" fill="#D6DEE4" font-family="Inter, Arial, sans-serif" font-size="16">Browser-checked anchors: ESP32-S3, Raspberry Pi Zero 2 W,</text>
   <text x="1180" y="82" fill="#D6DEE4" font-family="Inter, Arial, sans-serif" font-size="16">E22-900T22D, and EU 868 MHz LoRa direction.</text>
 
@@ -74,12 +74,12 @@
     <g font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700">
       <rect x="722" y="838" width="112" height="30" rx="6" fill="#EEF4FF" stroke="#246BFE"/>
       <text x="734" y="858" fill="#233F7A">Larger LCD</text>
-      <rect x="846" y="838" width="104" height="30" rx="6" fill="#EEF4FF" stroke="#246BFE"/>
-      <text x="858" y="858" fill="#233F7A">Keyboard</text>
-      <rect x="962" y="838" width="92" height="30" rx="6" fill="#EEF4FF" stroke="#246BFE"/>
-      <text x="974" y="858" fill="#233F7A">Joystick</text>
-      <rect x="1066" y="838" width="116" height="30" rx="6" fill="#EEF4FF" stroke="#246BFE"/>
-      <text x="1078" y="858" fill="#233F7A">Internal bus</text>
+      <rect x="846" y="838" width="132" height="30" rx="6" fill="#EEF4FF" stroke="#246BFE"/>
+      <text x="858" y="858" fill="#233F7A">QWERTY module</text>
+      <rect x="992" y="838" width="92" height="30" rx="6" fill="#EEF4FF" stroke="#246BFE"/>
+      <text x="1004" y="858" fill="#233F7A">Joystick</text>
+      <rect x="1096" y="838" width="116" height="30" rx="6" fill="#EEF4FF" stroke="#246BFE"/>
+      <text x="1108" y="858" fill="#233F7A">Internal bus</text>
     </g>
 
     <text x="722" y="918" fill="#172026" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">Architecture Direction</text>
@@ -123,10 +123,10 @@
       <text x="1352" y="858" fill="#6A3C00">Linux path</text>
       <rect x="1460" y="838" width="164" height="30" rx="6" fill="#FFF5E8" stroke="#D97A00"/>
       <text x="1472" y="858" fill="#6A3C00">Pi Zero 2 W research</text>
-      <rect x="1636" y="838" width="74" height="30" rx="6" fill="#FFF5E8" stroke="#D97A00"/>
-      <text x="1648" y="858" fill="#6A3C00">Dock</text>
-      <rect x="1722" y="838" width="96" height="30" rx="6" fill="#FFF5E8" stroke="#D97A00"/>
-      <text x="1734" y="858" fill="#6A3C00">Shared bus</text>
+      <rect x="1636" y="838" width="122" height="30" rx="6" fill="#FFF5E8" stroke="#D97A00"/>
+      <text x="1648" y="858" fill="#6A3C00">Mini keyboard</text>
+      <rect x="1770" y="838" width="58" height="30" rx="6" fill="#FFF5E8" stroke="#D97A00"/>
+      <text x="1782" y="858" fill="#6A3C00">Dock</text>
     </g>
 
     <text x="1340" y="918" fill="#172026" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">Pro Constraints</text>

@@ -2,7 +2,7 @@
   <rect width="900" height="1200" fill="#F5F7F8"/>
   <rect width="900" height="132" fill="#172026"/>
   <text x="56" y="66" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="36" font-weight="700">LT Core</text>
-  <text x="56" y="102" fill="#B7C3CC" font-family="Inter, Arial, sans-serif" font-size="17">Flagship portable computer architecture with larger input and stronger expansion.</text>
+  <text x="56" y="102" fill="#B7C3CC" font-family="Inter, Arial, sans-serif" font-size="17">Flagship handheld with stronger expansion and optional keyboard-module workflows.</text>
 
   <rect x="56" y="176" width="788" height="900" rx="12" fill="#FFFFFF" stroke="#D7DEE5"/>
   <rect x="56" y="176" width="788" height="10" fill="#246BFE"/>
@@ -30,12 +30,12 @@
   <g id="chips" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">
     <rect x="112" y="750" width="130" height="36" rx="7" fill="#EEF4FF" stroke="#246BFE"/>
     <text x="128" y="773" fill="#233F7A">Larger LCD</text>
-    <rect x="258" y="750" width="116" height="36" rx="7" fill="#EEF4FF" stroke="#246BFE"/>
-    <text x="274" y="773" fill="#233F7A">Keyboard</text>
-    <rect x="390" y="750" width="106" height="36" rx="7" fill="#EEF4FF" stroke="#246BFE"/>
-    <text x="406" y="773" fill="#233F7A">Joystick</text>
-    <rect x="512" y="750" width="132" height="36" rx="7" fill="#EEF4FF" stroke="#246BFE"/>
-    <text x="528" y="773" fill="#233F7A">Internal bus</text>
+    <rect x="258" y="750" width="150" height="36" rx="7" fill="#EEF4FF" stroke="#246BFE"/>
+    <text x="274" y="773" fill="#233F7A">QWERTY module</text>
+    <rect x="424" y="750" width="106" height="36" rx="7" fill="#EEF4FF" stroke="#246BFE"/>
+    <text x="440" y="773" fill="#233F7A">Joystick</text>
+    <rect x="546" y="750" width="132" height="36" rx="7" fill="#EEF4FF" stroke="#246BFE"/>
+    <text x="562" y="773" fill="#233F7A">Internal bus</text>
   </g>
 
   <text x="112" y="850" fill="#172026" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">Architecture direction</text>
