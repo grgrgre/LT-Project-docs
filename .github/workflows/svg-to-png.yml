@@ -2,6 +2,9 @@ name: Convert SVG to PNG
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - svg-to-png
 
 permissions:
   contents: write
