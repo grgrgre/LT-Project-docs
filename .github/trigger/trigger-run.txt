@@ -1,0 +1,4 @@
+Trigger workflow run
+
+This file was added to trigger the svg-to-png workflow.
+Timestamp: 2026-07-06T09:50:00Z
